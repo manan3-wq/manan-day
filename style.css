@@ -1,0 +1,30 @@
+.jumbotron{
+	padding-top: 6rem;
+	background-color: #e2edff;
+}
+#gallery{
+	background-color: #e2edff;
+}
+section{
+	padding-top: 5rem;
+}
+form.link{
+	text-align: center;
+	border: 1px solid rgba(255,255,255,0.9);
+	border-radius: 4px;
+	margin-top: 17px;
+	padding: 2px 5px;
+	color: white;
+}
+form.link a{
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
+}
+form.link:hover{
+	box-shadow: 0 0 9px #0d6efd;
+	color: white;
+	background-attachment: fixed;
+}
+a:hover{
+	color: rgba(255,255,255,0.5);
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lupa sandi</title>
+	<style>
+		body{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			background: white;
+			font-family: sans-serif;
+		}
+		.lupa{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			border: 1px solid;
+			padding: 20px;
+			background: white;
+			height: 260px;
+		}
+		.loop input[type="email"], input[type="password"]{
+			border: 1px solid;
+			margin: 10px;
+			width: 200px;
+			height: 30px;
+			border-radius: 5px;
+		}
+		input[type="submit"], input[type="reset"]{
+			width: 100px;
+			margin-top: 10px;
+			margin-right: 10px;
+		}
+		a{
+		text-decoration: none;
+		color: gray;
+		}
+		a:hover{
+			text-decoration: underline;
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+<form class="lupa" action="login.html">
+	<h2 style="text-align: center; margin-top: -10px; margin-bottom: 5px;">Lupa Sandi</h2>
+	<div class="loop">
+		<table>
+			<tr>
+				<th style="text-align: left;">Your email</th>
+				<td style="font-weight: bold">:</td>
+				<td><input type="email" name="" placeholder="Email Here" required></td>
+			</tr>
+			<tr>
+				<th style="text-align: left;">password</th>
+				<td style="font-weight: bold">:</td>
+				<td><input type="password" name="" placeholder="Pass" required></td>
+			</tr>
+			<tr>
+				<th>Confirm password</th>
+				<td style="font-weight: bold">:</td>
+				<td><input type="password" name="" placeholder="Confirm Pass" required></td>
+			</tr>
+		</table>
+	</div>
+	<table>
+		<tr>
+			<td><input type="submit" name="" value="Send"></td>
+			<td><input type="reset" name="" value="Reset"></td>
+		</tr>
+	</table>
+	<p style="text-align: center; font-size: 10px; padding-top: 10px; color: gray;">&copy; Copyright by <a href="lupa.html">Manan Day</a> || Allright reserved</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="gaya.css">
+	<style>
+		body{
+			background: linear-gradient(45deg, lightblue,white);
+			font-family: sans-serif;
+			animation: gambar 2s linear infinite;
+		}
+		form#login{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background: rgba(0,200,255,0,5);
+			border-bottom-right-radius: 50px;
+			border-top-left-radius: 50px;
+			border: 1px solid lightblue;
+			height: 320px;
+			width: 250px;
+			padding: 10px;
+			box-shadow: 0 0 5px black;
+		}
+		.logo input[type="text"]{
+			border: 1px solid;
+			padding: 10px;
+			width: 90%;
+			margin-top: -15px;
+			margin-bottom: -5px;
+			box-shadow: 0 0 3px #000;
+		}
+		input[type="text"]{
+			background: none;
+			border: none;
+			border-radius: 5px;
+		}
+		.logo input[type="password"]{
+			border: 1px solid;
+			padding: 10px;
+			width: 90%;
+			margin-top: -15px;
+			border-radius: 5px;
+			box-shadow: 0 0 3px #000;
+		}
+		input[type="password"]{
+			background: none;
+			border: none;
+		}
+		.logo input[type="text"]:hover, input[type="password"]:hover, .btn input[type="submit"]:hover{
+			background: rgba(255,255,255,0.5);
+			transition: 0.5s;
+		}
+		.btn{
+			border: 1px solid;
+			width: 100px;
+			margin-top: 15px;
+			border-radius: 5px;
+			box-shadow: 0 0 3px #000;
+		}
+		.btn input[type="submit"]{
+			background: none;
+			border: none;
+			width: 100%;
+			padding: 5px;
+		}
+		p{
+			margin-bottom: 15px;
+			font-weight: bold;
+		}
+		div.l{
+			margin-top: 10px;
+			font-size: 15px;
+		}
+		div.p{
+			margin: 10px 0px;
+			font-size: 15px;
+		}
+		a{
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: underline;
+			color: red;
+			transition: 0,5s;
+		}
+		</style>
+</head>
+<body>
+	<form id="login" action="main.html" method="get">
+		<h2 style="text-align: center;">Login</h2>
+		<div class="logo"><p>User Name</p>
+		<input type="text" name="" placeholder="username" required id="text">
+		</div>
+		<div class="logo"><p>Password</p>
+		<input type="password" name="" placeholder="password" required id="password">
+		</div>
+		<div class="btn">
+			<input type="submit" name="" value="Login">
+		</div>
+		<div class="l">
+			<a href="lupa.html">Lupa Sandi</a>
+		</div>
+		<div class="p">Anda Belum punya akun?<a href="">Klik di sini</a></div>
+	</form>
+</body>
+</html>
